@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem de Fundo</title>
+    <style>
+        .container{
+            width: 1300px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .box1{
+            width: 300px;
+            height: 300px;
+            background-image: radial-gradient(yellow, white, yellow, orange, white);
+            border-radius: 9em;
+        }
+        .box2{
+            width: 300px;
+            height: 300px;
+            background-image: repeating-conic-gradient(red 10%, yellow 20%);
+        }
+        .box3{
+            width: 300px;
+            height: 300px;
+            background-image: repeating-linear-gradient(to right, green, yellow, green);
+        }
+        .box4{
+            width: 300px;
+            height: 300px;
+            background-image: conic-gradient(red, yellow, green);
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Imgem de Fundo</h1>
+
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+    </div>
+</body>
+</html>
